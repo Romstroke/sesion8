@@ -6,7 +6,7 @@
           <div>
              <h1>Desafía las expectativas de los MOBA</h1>
              <p>Épicos héroes y acciones sin cesar en múltiples campos de batalla!!! WOW</p>
-             <v-btn color="orange darken-2" dark>Ver héroes</v-btn>
+             <v-btn color="orange darken-2" dark @click="redirectTo">Ver héroes</v-btn>
           </div>
       </v-col>
     </v-row>
@@ -27,6 +27,11 @@
     components: {
     
     },
+    methods:{
+          redirectTo(){
+            this.$router.push('/heroes')
+        }
+    }
   }
 </script>
 <style scoped>

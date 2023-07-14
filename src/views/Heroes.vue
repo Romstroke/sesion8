@@ -66,7 +66,7 @@ export default {
     computed: {
         ...mapState(['heroes'])
     },
-    //methods: {}
+    //methods: {},
     // watch: {},
     // components: {},
     // mixins: [],
@@ -82,6 +82,7 @@ export default {
         background-size:100%;
         height: 100%;
         background-attachment: fixed;
+        /* backdrop-filter: blur(10px); */
     }
     .titulo{
         color: whitesmoke;

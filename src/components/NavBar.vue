@@ -6,7 +6,7 @@
       dense
     >
     <div class="d-flex justify-center flex-grow-1" >
-         <v-btn color="blue darken-3">
+         <v-btn color="blue darken-3" @click="redirectTo">
         <v-icon>
             mdi-home
         </v-icon>
@@ -25,7 +25,11 @@ export default {
         return {}
     },
     // computed: {},
-    //methods: {}
+    methods: {
+           redirectTo(){
+            this.$router.push('/')
+        }
+    }
     // watch: {},
     // components: {},
     // mixins: [],
