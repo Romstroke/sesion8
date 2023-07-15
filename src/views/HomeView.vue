@@ -12,7 +12,7 @@
     </v-row>
   
   </v-container>
-    <v-alert v-model="alert" border="left" color="purple darken-1" dark class="py-5 mt-14" style="opacity: 0.8">      
+    <v-alert border="left" color="purple darken-1" dark class="py-5 mt-14" style="opacity: 0.8">      
       ¡Te damos la bienvenida al Nexo! ¡En este reino entre reinos, todo es posible! Elige entre decenas de héroes legendarios de todo el panteón de Blizzard, personaliza sus talentos y habilidades en medio del combate y lucha en una infinidad de campos de batalla que redefinen el género. ¡Esto no es un MOBA promedio, eso es Heroes of th Storm!      
     </v-alert>
   </div>

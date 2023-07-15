@@ -27,6 +27,13 @@ export default {
     // computed: {},
     methods: {
            redirectTo(){
+            console.log(this.$route.path)
+
+            if(this.$route.path== '/'){
+                alert('Ya estas en Home.')
+                 return
+            }
+           
             this.$router.push('/')
         }
     }
